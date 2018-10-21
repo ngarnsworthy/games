@@ -1,0 +1,11 @@
+Remember a score for a game.
+
+4 scores.
+
+Always show your score.
+
+Easy to update the scores.
+
+Hold mortgage rates, loan amounts, tax.
+
+Colorful.
