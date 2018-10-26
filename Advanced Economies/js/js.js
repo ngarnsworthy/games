@@ -11,4 +11,10 @@ function start() {
   plaerTwo = startMoney
   plaerThree = startMoney
   plaerFour = startMoney
+  swichAndReset()
+}
+
+
+function swichAndReset() {
+  .getElementById('plaerOne').inerhtml(plaerOne)
 }
