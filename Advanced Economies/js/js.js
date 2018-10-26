@@ -1,11 +1,13 @@
 var startMoney = 0
 
-var plaerOne = startMoney
-var plaerTwo = startMoney
-var plaerThree = startMoney
-var plaerFour = startMoney
-var MortgageRate = getElementById('idMortgageRate')
+var plaerOne = startMoney,
+    plaerTwo = startMoney,
+    plaerThree = startMoney,
+    plaerFour = startMoney,
+    MortgageRate
+
 function start() {
+  MortgageRate = document.getElementById('idMortgageRate').value - 0
   startMoney = document.getElementById("idStartAcountAmount").value - 0
   plaerOne = startMoney
   plaerTwo = startMoney
