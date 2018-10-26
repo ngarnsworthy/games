@@ -16,5 +16,5 @@ function start() {
 
 
 function swichAndReset() {
-  .getElementById('plaerOne').inerhtml(plaerOne)
+  document.getElementById('plaerOne').innerHTML = plaerOne;
 }
