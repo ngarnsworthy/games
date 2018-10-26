@@ -1,11 +1,13 @@
 var startMoney = 0
 
-var plaerOne = startMoney
-var plaerTwo = startMoney
-var plaerThree = startMoney
-var plaerFour = startMoney
+var plaerOne = startMoney,
+    plaerTwo = startMoney,
+    plaerThree = startMoney,
+    plaerFour = startMoney,
+    MortgageRate
 
 function start() {
+  MortgageRate = document.getElementById('idMortgageRate').value - 0
   startMoney = document.getElementById("idStartAcountAmount").value - 0
   plaerOne = startMoney
   plaerTwo = startMoney
@@ -20,4 +22,5 @@ function swichAndReset() {
   document.getElementById('plaerTwo').innerHTML = plaerTwo;
   document.getElementById('plaerThree').innerHTML = plaerThree;
   document.getElementById('plaerFour').innerHTML = plaerFour;
+  document.getElementById('idMortgageRateDiv').innerHTML = MortgageRate;
 }
