@@ -20,5 +20,5 @@ function swichAndReset() {
   document.getElementById('plaerTwo').innerHTML = plaerTwo;
   document.getElementById('plaerThree').innerHTML = plaerThree;
   document.getElementById('plaerFour').innerHTML = plaerFour;
-  document.getElementById('plaerFour').innerHTML = MortgageRate;
+  document.getElementById('idMortgageRateDiv').innerHTML = MortgageRate;
 }
