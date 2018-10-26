@@ -6,7 +6,7 @@ var plaerThree = startMoney
 var plaerFour = startMoney
 
 function start() {
-  startMoney = document.getElementById("idStartAcountAmount").value-0
+  startMoney = document.getElementById("idStartAcountAmount").value - 0
   plaerOne = startMoney
   plaerTwo = startMoney
   plaerThree = startMoney
