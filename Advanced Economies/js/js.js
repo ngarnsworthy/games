@@ -17,4 +17,7 @@ function start() {
 
 function swichAndReset() {
   document.getElementById('plaerOne').innerHTML = plaerOne;
+  document.getElementById('plaerTwo').innerHTML = plaerTwo;
+  document.getElementById('plaerThree').innerHTML = plaerThree;
+  document.getElementById('plaerFour').innerHTML = plaerFour;
 }
