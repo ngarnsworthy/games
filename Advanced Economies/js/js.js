@@ -4,8 +4,8 @@ var plaerOne = startMoney
 var plaerTwo = startMoney
 var plaerThree = startMoney
 var plaerFour = startMoney
-var MortgageRate = getElementById('idMortgageRate')
-var tax = getElementById('idTax')
+var MortgageRate
+var tax
 
 function start() {
   startMoney = document.getElementById("idStartAcountAmount").value - 0
@@ -13,8 +13,8 @@ function start() {
   plaerTwo = startMoney
   plaerThree = startMoney
   plaerFour = startMoney
-  MortgageRate = getElementById('idMortgageRate')
-  tax = getElementById('idTax')
+  MortgageRate = document.getElementById('idMortgageRate').value - 0
+  tax = document.getElementById('idTax').value - 0
   swichAndReset()
 }
 
@@ -26,6 +26,6 @@ function swichAndReset() {
   document.getElementById('plaerThree').innerHTML = plaerThree;
   document.getElementById('plaerFour').innerHTML = plaerFour;
   document.getElementById('idMortgageRateDiv').innerHTML = MortgageRate;
-  document.getElementById('idTax').innerHTML = idTaxDiv;
+  document.getElementById('idTaxDiv').innerHTML = tax;
 
 }
