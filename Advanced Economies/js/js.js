@@ -37,6 +37,6 @@ function swichAndReset() {
 }
 
 function changeValue(id) {
-  var value = ge('id'+id+'Change').value-0;
+  var value = ge('idPlayerChange').value-0;
   ge('id' + id + 'Div').innerHTML = value;
 }
