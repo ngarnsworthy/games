@@ -15,10 +15,10 @@ function ge(id) {
 
 function start() {
   startMoney = ge("idStartAcountAmount").value - 0
-  plaerOne = startMoney
-  plaerTwo = startMoney
-  plaerThree = startMoney
-  plaerFour = startMoney
+  idPlayerOneDiv = startMoney
+  idPlayerTwoDiv = startMoney
+  idPlayerThreeDiv = startMoney
+  idPlayerFourDiv = startMoney
   MortgageRate = ge('idMortgageRate').value - 0
   tax = ge('idTax').value - 0
   swichAndReset()
