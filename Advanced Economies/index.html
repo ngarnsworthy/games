@@ -23,19 +23,21 @@
   </div>
 
   <div class="present">
-    <div id="plaerOne" class="plaerOne">
+    <div id="idPlayerOneDiv" class="plaerOne">
 
     </div>
     <h1>p1</h1>
-    <div id="plaerTwo" class="plaerTwo">
+ add-tax
+    <div id="idPlayerTwoDiv" class="plaerTwo">
 
     </div>
     <h1>p2</h1>
-    <div id="plaerThree" class="plaerThree">
+    <div id="idPlayerThreeDiv" class="plaerThree">
 
     </div>
     <h1>p3</h1>
-    <div id="plaerFour" class="plaerFour">
+    <div id="idPlayerFourDiv" class="plaerFour">
+
 
     </div>
     <h1>p4</h1>
@@ -49,10 +51,30 @@
     <h1>Tax</h1>
   </div>
   <div class="cange">
-    <p>plese enter the chang amount of tax
+ add-tax
+    <p>plese enter the amount of tax
     </p>
     <input type="number" name="" id="idTaxChange" value="0">
     <button type="button" onclick="changeValue('Tax')">change tax</button>
+  </div>
+  <div class="cange">
+    <p>plese enter the chang amount of Mortgage Rate
+    </p>
+    <input type="number" name="" id="idMortgageRateChange" value="0">
+    <button type="button" onclick="changeValue('MortgageRate')">change Mortgage Rate</button>
+  </div>
+  <div class="cange">
+    <p>plese enter the chang amount of plaer
+    </p>
+    <input type="number" name="" id="idPlaerchange" value="0">
+    <select class="" name="" id="idPlayerNumber">
+      <option value="One">1</option>
+      <option value="Two">2</option>
+      <option value="Three">3</option>
+      <option value="Four">4</option>
+    </select>
+    <button type="button" onclick="changeValue('plaer'+ document.getElementById(idPlaerchang))">change player</button>
+
   </div>
 
 
