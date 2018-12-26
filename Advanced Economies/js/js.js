@@ -27,10 +27,12 @@ function start() {
 
 function swichAndReset() {
 
+add-tax
   ge('idPlayerOneDiv').innerHTML = plaerOne;
   ge('idPlayerTwoDiv').innerHTML = plaerTwo;
   ge('idPlayerThreeDiv').innerHTML = plaerThree;
   ge('idPlayerFourDiv').innerHTML = plaerFour;
+
   ge('idMortgageRateDiv').innerHTML = MortgageRate;
   ge('idTaxDiv').innerHTML = tax;
 
