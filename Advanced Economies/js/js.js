@@ -27,10 +27,13 @@ function start() {
 
 function swichAndReset() {
 
+ game-one
   ge('idPlayerOneDiv').innerHTML = plaerOne;
   ge('idPlayerTwoDiv').innerHTML = plaerTwo;
   ge('idPlayerThreeDiv').innerHTML = plaerThree;
   ge('idPlayerFourDiv').innerHTML = plaerFour;
+
+game-one
   ge('idMortgageRateDiv').innerHTML = MortgageRate;
   ge('idTaxDiv').innerHTML = tax;
 
