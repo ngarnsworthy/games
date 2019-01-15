@@ -27,16 +27,19 @@ function start() {
 
 function swichAndReset() {
 
-  ge('plaerOne').innerHTML = plaerOne;
-  ge('plaerTwo').innerHTML = plaerTwo;
-  ge('plaerThree').innerHTML = plaerThree;
-  ge('plaerFour').innerHTML = plaerFour;
+ game-one
+  ge('idPlayerOneDiv').innerHTML = plaerOne;
+  ge('idPlayerTwoDiv').innerHTML = plaerTwo;
+  ge('idPlayerThreeDiv').innerHTML = plaerThree;
+  ge('idPlayerFourDiv').innerHTML = plaerFour;
+
+game-one
   ge('idMortgageRateDiv').innerHTML = MortgageRate;
   ge('idTaxDiv').innerHTML = tax;
 
 }
 
 function changeValue(id) {
-  var value = ge('id'+id+'Change').value-0;
+  var value = ge('idPlayerChange').value-0;
   ge('id' + id + 'Div').innerHTML = value;
 }
